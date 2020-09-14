@@ -12,12 +12,12 @@ body{
 }
 .logo button {
     padding:8px;
-    background:rgb(143, 245, 248);
+    background:;
 
 }
 .logo  p{
     font-style: italic;
-    font-size:20px;
+    font-size:17px;
     font-weight:1000;
 }
 .navbar{
@@ -37,7 +37,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
-    font-size:20px;
+    font-size:18px;
     font-weight:700;
     
 }
@@ -73,16 +73,17 @@ p{
 
 }
 .col-2 img{
-    max-width:120%;
-    padding:50px 0;
+    max-width:80%;
+    padding:100px 0;
     margin-right:50px;
+    margin-top:40px;
     
     
 }
 .col-2 h1{
-    font-size:50px;
+    font-size:40px;
     line-height:60px;
-    margin:35px 0;
+    margin-top:80px;
 
 }
 .btn{
@@ -96,12 +97,64 @@ p{
     ;
 }
 .header{
-    background:radial-gradient(#c4f6f8,rgb(143, 245, 248));
+    background:radial-gradient(white);
     
 }
 .header .row{
-    margin-top:80px;
+    margin-top:-120px;
 }
+
+.split {
+    margin-top:-40px;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    padding-top: 0px;
+  }
+  
+  
+  .left {
+    left: 0;
+    background-image: linear-gradient(lightpink,pink,white);
+  }
+
+  .right {
+    right: 0;
+    background-image:linear-gradient(rgb(0, 183, 255),white,rgb(66, 174, 224) );
+  }
+
+  .center img {
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  
+  .center  h2{
+      padding-top:30px;
+      margin-left:30px;
+      font-size:35px;
+      font-style: italic;
+      
+  }
+  .center  p{
+
+    padding:30px;
+    font-size:20px;
+    font-weight:1000;
+    color:black;
+      
+  }
+  .center a{
+      margin-top:-50px;
+      margin-left: 20px;
+  }
+  .center h3{
+      margin-left:20px;
+  }
+
 
 
 
