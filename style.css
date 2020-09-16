@@ -172,16 +172,18 @@ p{
     width:70%;
 }
 .title{
+    padding-top:30px;
     text-align: center;
     margin:0 auto 20px;
     position:relative;
-    line-height: 60px;
+    line-height: 80px;
     color:#555;
+
 }
 .title::after{
     content:"";
     background:blue;
-    width:140px;
+    width:120px;
     height:5px;
     border-radius:5px;
     position:absolute;
@@ -197,5 +199,33 @@ h4{
     color:blue;
 }
 .col-4:hover{
-        transform: translateY(-5px);
+        transform: translateY(-20px);
+}
+.col-6{
+    flex-basis:16%;
+    padding:50px;
+    min-width:50px;
+    margin-bottom:50px;
+   transition:transform 0.5;
+}
+.col-6 img{
+    width:100%;
+}
+.col-6:hover{
+    transform: translateY(-20px);
+}
+ p strong{
+    align-content: center;
+    color:black;
+}
+a em{
+    color: black;
+    text-align: center;
+    font-size:30px;
+    font-weight: 900;
+    display:block;
+    border-style:inset;
+    border-width:1px;
+    border-color:black;
+    background-color: blue;
 }
