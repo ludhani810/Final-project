@@ -12,7 +12,7 @@ body{
 }
 .logo button {
     padding:8px;
-    background:;
+
 
 }
 .logo  p{
@@ -33,11 +33,12 @@ nav{
 nav ul{
     display:inline-block;
     list-style-type: none;
+    margin-right:2px;
 }
 nav ul li{
     display: inline-block;
     margin-right: 20px;
-    font-size:18px;
+    font-size:22px;
     font-weight:700;
     
 }
@@ -45,6 +46,7 @@ a{
     text-decoration: none;
     color: #555;
 }
+
 
 p{
     color: #555;
@@ -174,7 +176,7 @@ p{
 .title{
     padding-top:30px;
     text-align: center;
-    margin:0 auto 20px;
+    padding-bottom:0;
     position:relative;
     line-height: 80px;
     color:#555;
@@ -189,6 +191,7 @@ p{
     position:absolute;
     bottom: 0;
     left: 50%;
+    padding-top:2px;
     transform:translateX(-50%);
 }
 h4{
@@ -227,5 +230,50 @@ a em{
     border-style:inset;
     border-width:1px;
     border-color:black;
-    background-color: blue;
+    background-color: #4545e9;
+}
+
+.footer{
+    background-color:#000;
+    color: #8a8a8a;
+    font-size:14px;
+    margin-top:px;
+    padding-bottom:20px;
+    padding-top:20px;
+   
+
+}
+.footer p{
+    color:#8a8a8a;
+}
+.footer h3{
+    color:#fff;
+    margin-bottom:0;
+}
+
+.footer-col-1,  .footer-col-2,  .footer-col-3,  .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 0;
+}
+.footer-col-1{
+    flex-basis:30%;
+}
+.footer-col-2,.footer-col-3, .footer-col-4{
+     flex-basis:15% ;
+     text-align:center;
+}
+ul{
+    list-style-type:none;
+}
+.app-logo{
+    margin-top:20px;
+}
+.app-logo img {
+        width:140px;
+}
+
+
+.footer .row{
+  margin-top:30px;
+  margin-bottom:30px;
 }
